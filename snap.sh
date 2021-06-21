@@ -36,7 +36,7 @@ while true; do
     mkdir -p `date +%Y/%m/%d/`    
     
     # Now that we have the seed, let's take a first image
-    ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video0 -frames 1 $PREFIX$skip/$i.jpeg || touch $PREFIX$skip/0.jpeg
+    ffmpeg -f video4linux2 -s 1920x1080 -i /dev/video0 -frames 1 $PREFIX$skip/$i.jpeg || touch $PREFIX$skip/$i.jpeg
     # and hash it
     sha256sum $PREFIX$skip/$i.jpeg > $PREFIX$skip/$i-hash.md
     ps ax > $PREFIX$skip/$i-psax.md
