@@ -2,6 +2,11 @@
 A babysitting tool with anti-tampering cryptographic chain
 This tool will periodically take a screenshot and an associated capture from the webcam
 
+## A note on the quality of this tool
+
+* Quality is shit
+* You should **not** use this for anything serious.
+* At your own risk etc...
 
 ## Install
 
