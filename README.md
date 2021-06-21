@@ -1,5 +1,5 @@
 # blockcheck
-A babysitting tool with anti-tampering cryptographic chain
+A babysitting tool with anti-tampering cryptographic chain.
 This tool will periodically take a screenshot and an associated capture from the webcam
 
 ## A note on the quality of this tool
